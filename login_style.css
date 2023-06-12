@@ -1,0 +1,314 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #464646;
+}
+ol, ul,li {
+    list-style: none;
+    padding-inline-start: 0;
+    margin: unset;
+}
+
+h2, h3 {
+    margin: unset;
+}
+
+
+a.auxiliary, button.auxiliary {
+    height: 51px;
+    /* align-items: center; */
+    text-align: center;
+    padding: 16px 70px;
+    color: #2A7AE4;
+    font-size: 16px;
+    border: 1px solid #2A7AE4;
+    text-decoration: none;
+}
+
+a.main, button.main {
+    width: 165px;
+    height: 51px;
+    /* align-items: center; */
+    text-align: center;
+    padding: 16px;
+    background: #2A7AE4;
+    font-size: 16px;
+    color: white;
+    border: 8px;
+}
+
+.logo_div {
+    display: flex;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.ac {
+    align-items: center;
+}
+
+.start {
+    align-items: start;
+}
+
+.logo_img {
+    margin-right: 5px;
+}
+
+.title_highlight {
+    color: #2A7AE4;   
+}
+
+input.search {
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 393px;
+    height: 40px;
+
+    /* Preto/05% */
+
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+input.search::placeholder {
+    color: #A2A2A2;
+}
+
+header {
+    background-color: white;
+    gap: 32px;
+    align-items: center;
+}
+
+header, section {
+    padding: 37.5px 152px;
+    display: flex;
+}
+
+
+div.login {
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+}
+
+.hero_1_title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.hero_2_title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+/** main */
+main {
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login_form {
+    height: 291px;
+    width: 423px;
+}
+
+.login_form > h2 {
+    font-size: 18px;
+}
+
+/** contact */
+#contato {
+    background: #EAF2FD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+}
+
+.formcontato__title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.formcontato__subtext {
+    font-weight: 500;
+}
+
+div.formcontato__text {
+    margin-left: 16px;
+}
+
+div.formcontato__text, form.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inp {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    /* max-width: 280px; */
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.label {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    font-size: 16px;
+    color: #A2A2A2;
+    /* color: rgba($dark,.5); */
+    font-weight: 500;
+    transform-origin: 0 0;
+    transform: translate3d(0,0,0);
+    transition: all .2s ease;
+    pointer-events: none;
+}
+
+.focus-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba($dark,.05) */
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.input-field-format {
+    height: 56px;
+}
+
+.formcontato__input {    
+    width: 100%;
+    height: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 12px 0 12px;
+    box-shadow: inset 0 -1px 0 #C8C8C8;
+}
+
+
+.formcontato__input:valid
+      + .label{
+    color: #A2A2A2;;
+    transform: translate3d(0,-12px,0) scale(.75);
+}
+
+.formcontato__input:hover:not(:placeholder-shown)
+      + .label{
+    color: #2A7AE4;
+    transform: translate3d(0,-12px,0) scale(.75);
+}
+
+.formcontato__input:hover:focus{
+    /* background: rgba($dark,.05); */
+    outline: none;
+    box-shadow: inset 0 -2px 0 #C8C8C8;
+}
+
+.formcontato__input:hover:focus + .label{
+    /* color: $primary */
+    transform: translate3d(0,-12px,0) scale(.75);
+}
+
+.formcontato__input:hover:focus + .label  + .focus-bg{
+    /* color: $primary */
+    transform: scaleX(1);
+    transition: all .1s ease;
+}
+
+.formcontato__textarea {    
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    border: none;
+    padding: 16px;
+    padding-top: 22px;
+    box-shadow: inset 0 -1px 0 #C8C8C8;
+}
+
+.formcontato__textarea:hover:not(:placeholder-shown)
+      + .label{
+    color: #2A7AE4;
+    transform: translate3d(0,-12px,0) scale(.75);
+}
+
+.formcontato__textarea:hover:focus{
+    /* background: rgba($dark,.05); */
+    outline: none;
+    box-shadow: inset 0 -2px 0 #C8C8C8;
+}
+
+.formcontato__textarea:hover:focus + .label{
+    /* color: $primary */
+    transform: translate3d(0,-12px,0) scale(.75);
+}
+
+.formcontato__textarea:hover:focus + .label  + .focus-bg{
+    /* color: $primary */
+    transform: scaleX(1);
+    transition: all .1s ease;
+}
+
+footer {
+    text-align: center;
+    height: 102px;
+    line-height: 19px;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+}
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (max-width: 1190px) {
+
+
+}
