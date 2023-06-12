@@ -13,6 +13,10 @@ coloque nas sessões indicadas*/
     box-sizing: border-box;
 }
 
+.non-desktop {
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -26,6 +30,7 @@ body {
     line-height: 1;
     color: #464646;
 }
+
 ol, ul,li {
     list-style: none;
     padding-inline-start: 0;
@@ -61,6 +66,12 @@ a.main, button.main {
 
 .logo_div, .logo_top_div {
     display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.logo_nav_div {
     align-items: center;
     font-weight: bold;
     font-size: 27px;
@@ -368,6 +379,14 @@ utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
 @media (max-width: 1190px) {
+    .non-desktop {
+        display: flex;
+    }
+
+    .logo_nav_div.non-desktop {
+        margin-bottom: 16px;
+    }
+
     header, section, main {
         padding: 32px;
     }
@@ -428,6 +447,17 @@ utilize como referência os breakpoints @media abaixo*/
     a.auxiliary, button.auxiliary {
         padding: 12px 47px;
         height: 40px;
+    }
+
+    #contato {
+        flex-direction: column;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
     }
 
     .banner_content > a.main {
