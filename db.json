@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "url": "assets/unsplash_KeGToDVN0l4.png",
+      "nome": "Produto XYZ",
+      "price": 60,
+      "description": "JEDI 1",
+      "category": "Star Wars"
+    },
+    {
+      "id": 2,
+      "url": "assets/unsplash_1VV1MRafd7A.png",
+      "nome": "Produto QWW",
+      "price": 10,
+      "description": "JEDI 2",
+      "category": "Star Wars"
+    },
+    {
+      "id": 4,
+      "url": "assets/unsplash_6FDXGY9J6y4.png",
+      "nome": "Produto ADD",
+      "price": 30,
+      "description": "JEDI 4",
+      "category": "Star Wars"
+    },
+    {
+      "id": 5,
+      "url": "assets/unsplash_epRFE_hBNjo.png",
+      "nome": "Produto CCS",
+      "price": 40,
+      "description": "JEDI 5",
+      "category": "Star Wars"
+    },
+    {
+      "id": 6,
+      "url": "assets/unsplash_KeGToDVN0l4.png",
+      "nome": "Produto AA",
+      "price": 50,
+      "description": "JEDI 6",
+      "category": "Star Wars"
+    },
+    {
+      "id": 7,
+      "url": "assets/unsplash_0POwK6iAiRQ.png",
+      "nome": "Produto XYZ",
+      "price": 60,
+      "description": "Produto muito legal1",
+      "category": "Consoles"
+    },
+    {
+      "id": 8,
+      "url": "assets/unsplash_bUgaIaZysH0.png",
+      "nome": "Produto QWW",
+      "price": 10,
+      "description": "Produto muito legal2",
+      "category": "Consoles"
+    },
+    {
+      "id": 9,
+      "url": "assets/unsplash_caNzzoxls8Q.png",
+      "nome": "Produto XS",
+      "price": 20,
+      "description": "Produto muito legal3",
+      "category": "Consoles"
+    },
+    {
+      "id": 10,
+      "url": "assets/unsplash_k-xYhI3-gJM.png",
+      "nome": "Produto ADD",
+      "price": 30,
+      "description": "Produto muito lega4",
+      "category": "Consoles"
+    },
+    {
+      "id": 11,
+      "url": "assets/unsplash_Zjn4dT993-g.png",
+      "nome": "Produto CCS",
+      "price": 40,
+      "description": "Produto muito legal5",
+      "category": "Consoles"
+    },
+    {
+      "id": 13,
+      "url": "assets/unsplash_R8L1l9RN198.png",
+      "nome": "Produto XYZ",
+      "price": 60,
+      "description": "Qualquer coisa",
+      "category": "Diversos"
+    },
+    {
+      "id": 14,
+      "url": "assets/unsplash_r27umXAelDc.png",
+      "nome": "Produto QWW",
+      "price": 10,
+      "description": "Isso",
+      "category": "Diversos"
+    },
+    {
+      "id": 15,
+      "url": "assets/unsplash_sYVY_ZKwaxU.png",
+      "nome": "Produto XS",
+      "price": 20,
+      "description": "Mesmo",
+      "category": "Diversos"
+    },
+    {
+      "id": 16,
+      "url": "assets/unsplash_wa5z9o9fgjw.png",
+      "nome": "ADD",
+      "price": 30,
+      "description": "Anhangabaú",
+      "category": "Diversos"
+    },
+    {
+      "id": 17,
+      "url": "assets/unsplash_Zjn4dT993-g.png",
+      "nome": "CCS",
+      "price": 40,
+      "description": "Itaquera",
+      "category": "Diversos"
+    },
+    {
+      "id": 18,
+      "url": "assets/unsplash_ZV7lnfyQLmA.png",
+      "nome": "AA",
+      "price": 50,
+      "description": "Hello Silver",
+      "category": "Diversos"
+    }
+  ]
+}

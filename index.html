@@ -13,6 +13,8 @@
 
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <script type="module" defer src="controller/listaClientes-controller.js"></script>
     
     <title>Alura Geek</title>
 </head>
@@ -39,12 +41,12 @@
         <div class="banner_content">
             <div class="hero_1_title">Dezembro Promocional</div>
             <div class="hero_2_title">Produtos selecionados com 33% de desconto</div>
-            <a href="#" class="main">Ver Consoles</a>
+            <a href="#console_category_top_bar" class="main">Ver Consoles</a>
         </div>
     </section>
 
     <main>
-        <div class="category">
+        <!-- <div class="category">
             <div class="category_top_bar">
                 <div class="category_title">Star Wars</div>
                 <div class="category_more"><a class="product_link" href="#">Ver tudo &#10132;</a></div>
@@ -103,7 +105,7 @@
         </div>
 
         <div class="category">
-            <div class="category_top_bar">
+            <div id="console_category_top_bar" class="category_top_bar">
                 <div class="category_title">Consoles</div>
                 <div class="category_more"><a class="product_link" href="#">Ver tudo &#10132;</a></div>
             </div>
@@ -214,7 +216,7 @@
                     <p class="product_link"><a  class="product_link" href="#">Ver produto</a></p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
 
     <section id="contato">
@@ -251,7 +253,7 @@
                 </label>
 
                 <label class="inp">
-                    <textarea required maxlength="300" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem"></textarea>
+                    <textarea required maxlength="120" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem"></textarea>
                     <span class="label">Escreva sua mensagem</span>
                     <span class="focus-bg"></span>
                 </label>
@@ -264,8 +266,6 @@
     <footer>
         <p>Desenvolvido por Ghizieri Freitas<br> 2023</p>
     </footer>
-    <!-- Script Linkado do seu documento de JavaScript -->
-<!-- <script src="validate.js"></script> -->
 </body>
 </html>
 

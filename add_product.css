@@ -53,7 +53,7 @@ a.auxiliary, button.auxiliary {
 }
 
 a.main, button.main {
-    width: 165px;
+    width: max-content;
     height: 51px;
     /* align-items: center; */
     text-align: center;
@@ -141,7 +141,7 @@ div.login {
 
 /** main */
 main {
-    height: 470px;
+    padding: 64px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,8 +149,7 @@ main {
 
 
 .login_form {
-    height: 291px;
-    width: 423px;
+    width: 559px;
 }
 
 .login_form > h2 {
@@ -200,6 +199,10 @@ div.formcontato__text, form.formcontato__form {
     flex-direction: column;
     gap: 8px;
 }   
+
+.formcontato__botao.main {
+    width: initial;
+}
 
 
 .inp {

@@ -13,6 +13,8 @@
 
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <script type="module" src="controller/cadastraClientes-controller.js"></script>
     
     <title>Alura Geek</title>
 </head>
@@ -26,28 +28,47 @@
         <div class="saearch_div">
             <input type="search" class="search" placeholder="O que deseja encontrar?" />
         </div>
+
         <div class="login">
-            <a class="auxiliary" href="login.html">Login</a>
+            <a class="auxiliary" href="all_products.html">Menu administrador</a>
         </div>
     </header>
 
     <main>
         <form  class="login_form formcontato__form">
-            <h2>Iniciar Sessão</h2>
+            <h2>Adicionar novo produto</h2>
 
             <label class="input-field-format inp">
-                <input required maxlength="50" class="formcontato__input" type="email" id="nome">
-                <span class="label">Escreva seu email</span>
+                <input required maxlength="150" class="formcontato__input" type="url" id="url">
+                <span class="label">URL da imagem</span>
                 <span class="focus-bg"></span>
             </label>
 
             <label class="input-field-format inp">
-                <input required class="formcontato__input" type="password" id="password">
-                <span class="label">Escreva sua senha</span>
+                <input required maxlength="50" class="formcontato__input" type="text" id="categoria">
+                <span class="label">Categoria</span>
                 <span class="focus-bg"></span>
             </label>
 
-            <button class="formcontato__botao main">Entrar</button>
+            <label class="input-field-format inp">
+                <input required maxlength="250" class="formcontato__input" type="email" id="nome">
+                <span class="label">Nome do produto</span>
+                <span class="focus-bg"></span>
+            </label>
+
+            <label class="input-field-format inp">
+                <input required maxlength="250" class="formcontato__input" type="number" id="preco">
+                <span class="label">Preço do produto</span>
+                <span class="focus-bg"></span>
+            </label>
+
+            <label class="inp">
+                <textarea required maxlength="300" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem"></textarea>
+                <span class="label">Descrição do produto</span>
+                <span class="focus-bg"></span>
+            </label>
+
+            <button class="formcontato__botao main">Adicionar produto</button>
 
         </form>
     </main>
@@ -84,7 +105,7 @@
                 </label>
 
                 <label class="inp">
-                    <textarea required maxlength="300" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem"></textarea>
+                    <textarea required maxlength="120" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem"></textarea>
                     <span class="label">Escreva sua mensagem</span>
                     <span class="focus-bg"></span>
                 </label>
