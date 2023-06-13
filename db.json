@@ -25,14 +25,6 @@
       "category": "Star Wars"
     },
     {
-      "id": 5,
-      "url": "assets/unsplash_epRFE_hBNjo.png",
-      "nome": "Produto CCS",
-      "price": 40,
-      "description": "JEDI 5",
-      "category": "Star Wars"
-    },
-    {
       "id": 6,
       "url": "assets/unsplash_KeGToDVN0l4.png",
       "nome": "Produto AA",
@@ -73,22 +65,6 @@
       "category": "Consoles"
     },
     {
-      "id": 11,
-      "url": "assets/unsplash_Zjn4dT993-g.png",
-      "nome": "Produto CCS",
-      "price": 40,
-      "description": "Produto muito legal5",
-      "category": "Consoles"
-    },
-    {
-      "id": 13,
-      "url": "assets/unsplash_R8L1l9RN198.png",
-      "nome": "Produto XYZ",
-      "price": 60,
-      "description": "Qualquer coisa",
-      "category": "Diversos"
-    },
-    {
       "id": 14,
       "url": "assets/unsplash_r27umXAelDc.png",
       "nome": "Produto QWW",
@@ -127,6 +103,46 @@
       "price": 50,
       "description": "Hello Silver",
       "category": "Diversos"
+    },
+    {
+      "url": "http://www.capo.com",
+      "nome": "dfg",
+      "price": "3243",
+      "description": "dfg",
+      "category": "Diversos",
+      "id": 19
+    },
+    {
+      "url": "http://www.capo.com",
+      "nome": "dfdsf",
+      "price": "234324",
+      "description": "dzdsff",
+      "category": "Diversos",
+      "id": 20
+    },
+    {
+      "url": "http://www.capo.com",
+      "nome": "sss",
+      "price": "3333",
+      "description": "ffff",
+      "category": "Diversos",
+      "id": 21
+    },
+    {
+      "url": "http://www.capo.com",
+      "nome": "dsdsf",
+      "price": "3453",
+      "description": "dsdgdg",
+      "category": "Diversos",
+      "id": 22
+    },
+    {
+      "url": "http://www.google.com",
+      "nome": "Teste",
+      "price": "11111111",
+      "description": "Teste\nTestefsdfdf",
+      "category": "Diversos",
+      "id": 23
     }
   ]
 }

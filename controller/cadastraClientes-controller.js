@@ -1,15 +1,21 @@
-import { clienteService } from '../service/cliente-service.js'
+import { productService } from '../service/product-service.js'
 
 const formulario = document.querySelector('[data-form]')
 
 
 formulario.addEventListener('submit', (evento)=> { 
-  evento.preventDefault()
-  const nome = evento.target.querySelector('[data-nome]').value
-  const email = evento.target.querySelector('[data-email]').value
+  evento.preventDefault();
+  const prod = {
+    "url": document.querySelector("#url").value,
+    "nome": document.querySelector("#nome").value,
+    "price": document.querySelector("#preco").value,
+    "description": document.querySelector("#mensagem").value,
+    "category": "Diversos"
+  };
 
-  clienteService.criaCliente(nome, email)
-  .then(()=> {
-    window.location.href = '../telas/cadastro_concluido.html'
-  })
+  productService.criaProduto(prod)
+    .then(()=> {
+      window.location.href = './index.html'
+    }
+  )
 })

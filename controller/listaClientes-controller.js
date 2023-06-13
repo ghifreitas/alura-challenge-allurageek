@@ -8,7 +8,7 @@ const criaNovaLinha = (categoria, produtos) => {
     if( produtos.length > 0 ) {
         linhaNovoCliente.innerHTML = `<div class="category_top_bar">
             <div class="category_title">${categoria}</div>
-            <div class="category_more"><a class="product_link" href="#">Ver tudo &#10132;</a></div>
+            <div class="category_more"><a class="product_link" href="all_products.html">Ver tudo &#10132;</a></div>
         </div>`;
 
         // <div class="category_content">

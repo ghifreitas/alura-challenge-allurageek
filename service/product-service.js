@@ -16,16 +16,13 @@ const filterProdutos = (filter) => {
         })
 }
 
-const criaProduto = (nome, email) => {
+const criaProduto = (produto) => {
     return fetch(`http://localhost:3000/products`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({
-            nome: nome,
-            email: email
-        })
+        body: JSON.stringify(produto)
     })
         .then(resposta => {
             return resposta.body
