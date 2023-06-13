@@ -186,6 +186,11 @@ main {
     overflow: hidden;
 }
 
+.product_image {
+    width: 176px;
+    height: 174px;
+}
+
 .product_description {
     font-weight: 500;
 }

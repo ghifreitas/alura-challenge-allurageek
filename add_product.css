@@ -190,6 +190,11 @@ main {
     font-weight: 500;
 }
 
+.product_image {
+    width: 176px;
+    height: 174px;
+}
+
 div.formcontato__text {
     margin-left: 16px;
 }

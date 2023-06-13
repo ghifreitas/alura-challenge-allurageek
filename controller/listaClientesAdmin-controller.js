@@ -7,7 +7,7 @@ const criaNovaLinha = (produto) => {
             <img class="product_image" src="${produto.url}">
             <p class="product_description">${produto.nome}</p>
             <p class="product_price">R$ ${produto.price}</p>
-            <p class="product_link"><a class="product_link" href="add_product.html?id=${produto.id}">Ver produto</a></p>
+            <p class="product_link"><a class="product_link" href="add_product.html?id=${produto.id}">Editar produto</a></p>
             <p class="product_link"><a class="product_link delete-button" data-id="${produto.id}" href="#">Excluir produto</a></p>
         </div>`;
 }
